@@ -1,0 +1,111 @@
+[
+    {
+        "name": "Sol",
+        "radius": 14,
+        "distance": 0,
+        "speed": 0,
+        "texture": "sun.jpg",
+        "description": "O Sol é uma estrela anã amarela que compõe o centro do sistema solar. Ele contém aproximadamente 99.86% da massa total do sistema. Sua luz e calor são essenciais para a vida na Terra. Composição principal: Hidrogênio (74%) e Hélio (24%)."
+    },
+    {
+        "name": "Mercurio",
+        "radius": 2.4,
+        "distance": 35,
+        "speed": 1.6,
+        "texture": "mercury.jpg",
+        "description": "Mercúrio é o menor planeta do sistema solar e o mais próximo do Sol. Sua superfície é marcada por crateras de impacto."
+    },
+    {
+        "name": "Venus",
+        "radius": 5.0,
+        "distance": 50,
+        "speed": 1.2,
+        "texture": "venus.jpg",
+        "description": "Vênus é o segundo planeta do Sol e é semelhante à Terra em tamanho e massa. Tem uma atmosfera densa de dióxido de carbono."
+    },
+    {
+    "name": "Terra",
+    "radius": 6.3,
+    "distance": 70,
+    "speed": 1.0,
+    "texture": "earth_normal.jpg",
+    "type": "Planeta Terrestre",
+    "orbitalPeriod": "365.26 dias",
+    "description": "A Terra é o terceiro planeta do Sol e o único objeto astronômico conhecido por abrigar vida (inclusive a minha e da minha tchutchuca). Tem um satélite natural, a Lua.",
+    "moons": [
+        {
+            "name": "Lua",
+            "radius": 1.7,
+            "distance": 20,
+            "speed": 2.0,
+            "texture": "moon.jpg"
+        }
+    ]
+    },
+    {
+        "name": "Marte",
+        "radius": 3.3,
+        "distance": 90,
+        "speed": 0.8,
+        "texture": "mars.jpg",
+        "description": "Marte é o quarto planeta do Sol e é frequentemente chamado de 'Planeta Vermelho' devido ao óxido de ferro em sua superfície."
+    },
+    {
+        "name": "Saturno",
+        "radius": 10,
+        "distance": 150,
+        "speed": 0.3,
+        "texture": "saturn.jpg",
+        "description": "Saturno é o sexto planeta do Sol e o segundo maior no sistema solar, depois de Júpiter. É conhecido por seu sistema de anéis proeminente."
+    },
+    {
+        "name": "Uranus",
+        "radius": 8,
+        "distance": 180,
+        "speed": 0.2,
+        "texture": "uranus.jpg",
+        "description": "Urano é o sétimo planeta do Sol e tem uma inclinação axial de quase 90 graus, fazendo com que gire de lado."
+    },
+    {
+        "name": "Netuno",
+        "radius": 7.5,
+        "distance": 200,
+        "speed": 0.1,
+        "texture": "neptune.jpg",
+        "description": "Netuno é o oitavo e mais distante planeta do Sol no sistema solar. É o quarto maior planeta em diâmetro."
+    },
+    {
+        "name": "Plutão",
+        "radius": 1.8,
+        "distance": 220,
+        "speed": 0.07,
+        "texture": "pluto.jpg",
+        "description": "Plutão, agora classificado como um planeta anão, foi considerado o nono planeta do sistema solar até 2006."
+    },
+    {
+    "name": "Jupiter",
+    "radius": 12,
+    "distance": 120,
+    "speed": 0.4,
+    "texture": "jupiter.jpg",
+    "description": "Júpiter tem pelo menos 79 luas conhecidas...",
+    "moons": [
+        {
+            "name": "Io",
+            "radius": 0.8,
+            "distance": 15,
+            "speed": 1.7,
+            "texture": "io.jpg"
+        },
+        {
+            "name": "Europa",
+            "radius": 0.7,
+            "distance": 20,
+            "speed": 1.4,
+            "texture": "europa.jpg"
+        }
+    ]
+}
+
+
+]

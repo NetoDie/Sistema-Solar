@@ -1,0 +1,11 @@
+Checklist para debug do fundo estrelado:
+
+1. O arquivo 'textures/eso0932a.jpg' existe e está acessível?
+2. O nome do arquivo está correto? (atenção a letras maiúsculas/minúsculas)
+3. O console do navegador mostra algum erro de carregamento da textura?
+4. O fallback procedural (createProceduralStars) está sendo chamado?
+5. O backgroundSphere está sendo adicionado à cena antes dos planetas?
+6. O material da esfera está com opacity=1 e side=THREE.BackSide?
+7. O renderizador está funcionando normalmente?
+
+Se algum desses pontos falhar, anote o erro do console e compartilhe.
